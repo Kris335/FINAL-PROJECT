@@ -1,0 +1,332 @@
+* /* Global */
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Georgia';
+    padding-top: 5px;
+}
+
+.clearfix::after
+{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+body
+{
+    background-color: #1e1e1e;
+}
+
+#wrapper-div 
+{
+    width: 80%;
+    margin: auto;
+}
+
+#top-div 
+{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+}
+
+#logo-div 
+{
+    width: 27%;
+    min-height: 80px;
+    background-color: #3b3b3b;
+    padding-left: 2%;
+    line-height: 40px;
+    float: left;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+#img1-div 
+{
+    width: 230px;
+    height: 65px;
+}
+
+#nav-div 
+{
+    width: 73%;
+    min-height: 80px;
+    background-color: #636363;
+    padding-left: 7.5%;
+    float: right;
+    line-height: 70px;
+}
+
+#nav-div a /* Nav Bar Links */
+{
+    margin-right: 35px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a[href="Index.html"] 
+{
+    color: #a357ab;
+    text-decoration: none;
+}
+
+a[href="FNAF1.html"] 
+{
+    color: #bd8148;
+    text-decoration: none;
+}
+
+.nav
+{
+    color: #dd3a3a;
+}
+
+a[href="FNAF3.html"] 
+{
+    color: #d4cc07;
+    text-decoration: none;
+}
+
+a[href="FNAF4.html"] 
+{
+    color: #a10b0d;
+    text-decoration: none;
+}
+
+#headbanner-div 
+{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+#img2-div 
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#main-div
+{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#sidebar-div 
+{
+    width: 15%;
+    height: 1550px;
+    background-color: black;
+    text-align: center;
+    float: left;
+}
+
+#sidebar-div a /* Side Bar Links */
+{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+}
+
+.side
+{
+    color: white;
+}
+
+a[href="FNAF2 Night 2.html"] 
+{
+    color: white;
+}
+
+a[href="FNAF2 Night 3.html"] 
+{
+    color: white;
+}
+
+a[href="FNAF2 Night 4.html"] 
+{
+    color: white;
+}
+
+a[href="FNAF2 Night 5.html"] 
+{
+    color: #E9D502;
+}
+
+#body-div 
+{
+    width: 83%;
+    height: 1550px;
+    background-color: #636363;
+    line-height: 15px;
+    text-align: center;
+    float: right;
+    overflow: hidden;
+}
+
+#gameplay-div 
+{
+    width: 60%;
+    min-height: 1000px;
+    line-height: 15px;
+    text-align: center;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#img3-div 
+{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    max-height: 100%;
+    display: block;
+}
+
+#desc1 
+{
+    color: black;
+    font-size: 17px;
+}
+
+#img4-div 
+{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    max-height: 100%;
+    display: block;
+}
+
+#desc2
+{
+    color: black;
+    font-size: 17px;
+}
+
+#img5-div 
+{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    max-height: 100%;
+    display: block;
+}
+
+#desc3 
+{
+    color: black;
+    font-size: 17px;
+}
+
+#img6-div 
+{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    max-height: 100%;
+    display: block;
+}
+
+#desc4 
+{
+    color: black;
+    font-size: 17px;
+}
+
+#img7-div 
+{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    max-height: 100%;
+    display: block;
+}
+
+#desc5
+{
+    color: black;
+    font-size: 17px;
+}
+
+#paragraph-div
+{
+    width: 40%;
+    min-height: 1000px;
+    line-height: 27px;
+    text-align: justify;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-left: 3%;
+}
+
+#Header1
+{
+    font-size: 40px;
+}
+
+hr 
+{
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin: 20px 0;
+}
+
+#footer-div
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+#footerLogo-div
+{
+    width: 27%;
+    height: 100px;
+    background-color: #3b3b3b;
+    padding-left: 2%;
+    line-height: 40px;
+    float: left;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+#footerInfo-div
+{
+    width: 73%;
+    height: 100px;
+    background-color: #636363;
+    padding-left: 3%;
+    float: right;
+    line-height: normal;
+}
